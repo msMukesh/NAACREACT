@@ -6,7 +6,7 @@ const Signup = () => {
   const nameRef = useRef();
   const psdRef = useRef();
   const { registerUser } = useUserContext();
-  const history = useHistory(); 
+  // const history = useHistory(); 
   const onSubmit = (e) => {
     e.preventDefault();
     const email = emailRef.current.value;
